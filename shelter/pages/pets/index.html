@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pets</title>
+
+    <link rel="icon" href="../../assets/icons/favicon.ico">
+
+    <link rel="stylesheet" href="../../assets/styles/reset.css">
+    <link rel="stylesheet" href="../../pages/pets/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-container container">
+        <a href="../main/index.html" class="header-logo">
+            <h1 class="header-logo-title georgia">Cozy House</h1>
+            <p class="header-logo-subtitle arial">Shelter for pets in Boston</p>
+        </a>
+        <nav class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-navigation-list-item"><a href="../main/index.html" class="header-navigation-list-item-link_normal paragraph-l arial">About the shelter</a></li>
+                <li class="header-navigation-list-item"><a href="#" class="header-navigation-list-item-link_active paragraph-l arial active">Our pets</a></li>
+                <li class="header-navigation-list-item"><a href="../main/index.html#help" class="header-navigation-list-item-link_normal paragraph-l arial">Help the shelter</a></li>
+                <li class="header-navigation-list-item"><a href="#contacts" class="header-navigation-list-item-link_normal paragraph-l arial">Contacts</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="header-burger_btn">
+            <span></span>
+        </a>
+            <div class="mobile-menu">
+                <nav class="mobile-menu-list">
+                    <ul class="mobile-menu-list-items font-arial">
+                        <li class="mobile-menu-list-item"><a href="../main/index.html" class="mobile-menu-list-link">About the shelter</a></li>
+                        <li class="mobile-menu-list-item active"><a href="#main" class="mobile-menu-list-link">Our pets</a></li>
+                        <li class="mobile-menu-list-item"><a href="../main/index.html#help" class="mobile-menu-list-link">Help the shelter</a></li>
+                        <li class="mobile-menu-list-item"><a href="#contacts" class="mobile-menu-list-link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+</header>
+
+<main class="main" id="main">
+    <div class="main-container container">
+        <h3 class="main-head">Our friends who<br>are looking for a house</h3>
+        <div class="main-cards">
+            <div class="main-cards-slide"></div>
+        </div>
+        <ul class="main-pagination">
+            <li class="main-pagination-item_arrow_inactive" id="double-arrow-left"><a href="#" class="main-pagination-item-link georgia"><<</a></li>
+            <li class="main-pagination-item_arrow_inactive" id="arrow-left"><a href="#" class="main-pagination-item-link georgia"><</a></li>
+            <li class="main-pagination-item_num_active"><a href="#" class="main-pagination-item-link num georgia">1</a></li>
+            <li class="main-pagination-item_arrow_active" id="arrow-right"><a href="#" class="main-pagination-item-link georgia">></a></li>
+            <li class="main-pagination-item_arrow_active" id="double-arrow-right"><a href="#" class="main-pagination-item-link georgia">>></a></li>
+        </ul>
+    </div>
+
+    <div class="modal hidden"></div>
+</main>
+
+<footer class="footer" id="contacts">
+    <div class="footer-block container">
+        <div class="footer-block-for_questions">
+            <h3 class="footer-block-for_questions-head_3">For questions and suggestions</h3>
+            <h4 class="footer-block-for_questions-head_4"><a href="mailto:email@shelter.com"><img src="../../assets/images/main/icons/icon-email.svg" alt="email">email@shelter.com</a></h4>
+            <h4 class="footer-block-for_questions-head_4"><a href="tel:+13 674 567 75 54"><img src="../../assets/images/main/icons/icon-phone.svg" alt="email">+13 674 567 75 54</a></h4>
+        </div>
+        <div class="footer-block-for_visit">
+            <h3 class="footer-block-for_visit-head_3">We are waiting for your visit</h3>
+            <h4 class="footer-block-for_visit-head_4"><a href="https://goo.gl/maps/MzCqJWbo3XpYhsBd7" target="_blank"><img src="../../assets/images/main/icons/icon-marker.svg" alt="email">1 Central Street, Boston (entrance from the store)</a></h4>
+            <h4 class="footer-block-for_visit-head_4"><a href="https://goo.gl/maps/JMJZXDd8Hxea3oeU7" target="_blank"><img src="../../assets/images/main/icons/icon-marker.svg" alt="email">18 South Park, London</a></h4>
+        </div>
+        <div class="footer-block-image">
+            <img src="../../assets/images/main/footer-puppy.png" alt="Puppy">
+        </div>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

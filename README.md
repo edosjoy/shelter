@@ -1,6 +1,6 @@
 # Shelter
 
-Двухстраничный сайт https://edosjoy.github.io/shelter/shelter/pages/main/
+Deploy: https://edosjoy.github.io/shelter/shelter/pages/main/
 
 Одно из учебных заданий
 
